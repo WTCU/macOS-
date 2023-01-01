@@ -19,11 +19,11 @@ class ViewController: NSViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func 打开终端(_ sender: Any) {
+    
+    @IBAction func 打开终端(_ sender: NSButton) {
         //已链接到视图的“打开终端”按钮
         //在这里输入执行打开终端的指令
     }
-    
     ;    override var representedObject: Any? {
         didSet {
         // 更新视图（如果已加载）。

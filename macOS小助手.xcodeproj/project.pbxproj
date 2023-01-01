@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04197B502961CA82004BC388 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04197B4F2961CA82004BC388 /* WidgetKit.framework */; };
+		04197B522961CA82004BC388 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04197B512961CA82004BC388 /* SwiftUI.framework */; };
+		04197B552961CA83004BC388 /* WTCG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04197B542961CA83004BC388 /* WTCG.swift */; };
+		04197B582961CA84004BC388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04197B572961CA84004BC388 /* Assets.xcassets */; };
+		04197B5B2961CA84004BC388 /* WTCG.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 04197B562961CA83004BC388 /* WTCG.intentdefinition */; };
+		04197B5C2961CA84004BC388 /* WTCG.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 04197B562961CA83004BC388 /* WTCG.intentdefinition */; };
+		04197B5F2961CA84004BC388 /* WTCGExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04197B4D2961CA82004BC388 /* WTCGExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		04C2B6B829610F1C00C98931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C2B6B729610F1C00C98931 /* AppDelegate.swift */; };
 		04C2B6BA29610F1C00C98931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C2B6B929610F1C00C98931 /* ViewController.swift */; };
 		04C2B6BD29610F1C00C98931 /* macOS___.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04C2B6BB29610F1C00C98931 /* macOS___.xcdatamodeld */; };
@@ -18,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		04197B5D2961CA84004BC388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C2B6AC29610F1C00C98931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04197B4C2961CA82004BC388;
+			remoteInfo = WTCGExtension;
+		};
 		04C2B6C929610F1E00C98931 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04C2B6AC29610F1C00C98931 /* Project object */;
@@ -34,7 +48,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		04197B602961CA84004BC388 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04197B5F2961CA84004BC388 /* WTCGExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04197B4D2961CA82004BC388 /* WTCGExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WTCGExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		04197B4F2961CA82004BC388 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		04197B512961CA82004BC388 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		04197B542961CA83004BC388 /* WTCG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTCG.swift; sourceTree = "<group>"; };
+		04197B562961CA83004BC388 /* WTCG.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WTCG.intentdefinition; sourceTree = "<group>"; };
+		04197B572961CA84004BC388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04197B592961CA84004BC388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04197B5A2961CA84004BC388 /* WTCG.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WTCG.entitlements; sourceTree = "<group>"; };
 		04C2B6B429610F1C00C98931 /* macOS小助手.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS小助手.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C2B6B729610F1C00C98931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C2B6B929610F1C00C98931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +86,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04197B4A2961CA82004BC388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04197B522961CA82004BC388 /* SwiftUI.framework in Frameworks */,
+				04197B502961CA82004BC388 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04C2B6B129610F1C00C98931 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,12 +119,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04197B4E2961CA82004BC388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04197B4F2961CA82004BC388 /* WidgetKit.framework */,
+				04197B512961CA82004BC388 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04197B532961CA83004BC388 /* WTCG */ = {
+			isa = PBXGroup;
+			children = (
+				04197B542961CA83004BC388 /* WTCG.swift */,
+				04197B562961CA83004BC388 /* WTCG.intentdefinition */,
+				04197B572961CA84004BC388 /* Assets.xcassets */,
+				04197B592961CA84004BC388 /* Info.plist */,
+				04197B5A2961CA84004BC388 /* WTCG.entitlements */,
+			);
+			path = WTCG;
+			sourceTree = "<group>";
+		};
 		04C2B6AB29610F1C00C98931 = {
 			isa = PBXGroup;
 			children = (
 				04C2B6B629610F1C00C98931 /* macOS小助手 */,
 				04C2B6CB29610F1E00C98931 /* macOS小助手Tests */,
 				04C2B6D529610F1E00C98931 /* macOS小助手UITests */,
+				04197B532961CA83004BC388 /* WTCG */,
+				04197B4E2961CA82004BC388 /* Frameworks */,
 				04C2B6B529610F1C00C98931 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +158,7 @@
 				04C2B6B429610F1C00C98931 /* macOS小助手.app */,
 				04C2B6C829610F1E00C98931 /* macOS小助手Tests.xctest */,
 				04C2B6D229610F1E00C98931 /* macOS小助手UITests.xctest */,
+				04197B4D2961CA82004BC388 /* WTCGExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +196,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		04197B4C2961CA82004BC388 /* WTCGExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04197B632961CA84004BC388 /* Build configuration list for PBXNativeTarget "WTCGExtension" */;
+			buildPhases = (
+				04197B492961CA82004BC388 /* Sources */,
+				04197B4A2961CA82004BC388 /* Frameworks */,
+				04197B4B2961CA82004BC388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTCGExtension;
+			productName = WTCGExtension;
+			productReference = 04197B4D2961CA82004BC388 /* WTCGExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		04C2B6B329610F1C00C98931 /* macOS小助手 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C2B6DC29610F1E00C98931 /* Build configuration list for PBXNativeTarget "macOS小助手" */;
@@ -134,10 +220,12 @@
 				04C2B6B029610F1C00C98931 /* Sources */,
 				04C2B6B129610F1C00C98931 /* Frameworks */,
 				04C2B6B229610F1C00C98931 /* Resources */,
+				04197B602961CA84004BC388 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				04197B5E2961CA84004BC388 /* PBXTargetDependency */,
 			);
 			name = "macOS小助手";
 			productName = "macOS小助手";
@@ -190,6 +278,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					04197B4C2961CA82004BC388 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					04C2B6B329610F1C00C98931 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -219,11 +310,20 @@
 				04C2B6B329610F1C00C98931 /* macOS小助手 */,
 				04C2B6C729610F1E00C98931 /* macOS小助手Tests */,
 				04C2B6D129610F1E00C98931 /* macOS小助手UITests */,
+				04197B4C2961CA82004BC388 /* WTCGExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		04197B4B2961CA82004BC388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04197B582961CA84004BC388 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04C2B6B229610F1C00C98931 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,6 +350,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04197B492961CA82004BC388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04197B552961CA83004BC388 /* WTCG.swift in Sources */,
+				04197B5B2961CA84004BC388 /* WTCG.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04C2B6B029610F1C00C98931 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,6 +366,7 @@
 				04C2B6BD29610F1C00C98931 /* macOS___.xcdatamodeld in Sources */,
 				04C2B6BA29610F1C00C98931 /* ViewController.swift in Sources */,
 				04C2B6B829610F1C00C98931 /* AppDelegate.swift in Sources */,
+				04197B5C2961CA84004BC388 /* WTCG.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +390,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		04197B5E2961CA84004BC388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04197B4C2961CA82004BC388 /* WTCGExtension */;
+			targetProxy = 04197B5D2961CA84004BC388 /* PBXContainerItemProxy */;
+		};
 		04C2B6CA29610F1E00C98931 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 04C2B6B329610F1C00C98931 /* macOS小助手 */;
@@ -304,6 +419,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		04197B612961CA84004BC388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WTCG/WTCG.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WTCG/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WTCG;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PangXitong.macOS---.WTCG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04197B622961CA84004BC388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WTCG/WTCG.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WTCG/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WTCG;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PangXitong.macOS---.WTCG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		04C2B6DA29610F1E00C98931 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -420,6 +589,7 @@
 		04C2B6DD29610F1E00C98931 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS小助手/macOS___.entitlements";
@@ -445,6 +615,7 @@
 		04C2B6DE29610F1E00C98931 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS小助手/macOS___.entitlements";
@@ -513,7 +684,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "PangXitong.macOS---UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "macOS小助手";
 			};
@@ -529,7 +700,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "PangXitong.macOS---UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "macOS小助手";
 			};
@@ -538,6 +709,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04197B632961CA84004BC388 /* Build configuration list for PBXNativeTarget "WTCGExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04197B612961CA84004BC388 /* Debug */,
+				04197B622961CA84004BC388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		04C2B6AF29610F1C00C98931 /* Build configuration list for PBXProject "macOS小助手" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

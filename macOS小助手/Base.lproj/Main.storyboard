@@ -720,6 +720,17 @@
                                     <action selector="打开终端:" target="XfG-lQ-9wD" id="IoG-7a-EmP"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rdo-PJ-mCB">
+                                <rect key="frame" x="197" y="223" width="88" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="打开终端" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="WcH-11-Srq">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="打开终端:" target="XfG-lQ-9wD" id="RNB-QT-4iy"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>
