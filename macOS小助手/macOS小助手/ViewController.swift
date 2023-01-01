@@ -12,12 +12,12 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // 加载视图后执行任何其他设置。
     }
 
     override var representedObject: Any? {
         didSet {
-        // Update the view, if already loaded.
+        // 更新视图（如果已加载）。
         }
     }
 
