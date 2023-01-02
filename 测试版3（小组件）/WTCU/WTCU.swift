@@ -56,6 +56,9 @@ struct WTCUEntryView : View {
     }
 }
 
+// 创建图像对象
+let image = NSImage(named: "logo.JPG")
+
 @main
 struct WTCU: Widget {
     let kind: String = "WTCU"

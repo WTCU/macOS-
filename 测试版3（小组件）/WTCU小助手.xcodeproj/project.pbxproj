@@ -83,6 +83,7 @@
 		041DD761296275C2000B34EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041DD763296275C2000B34EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041DD764296275C2000B34EC /* WTCU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WTCU.entitlements; sourceTree = "<group>"; };
+		041DD76E29627F8B000B34EC /* logo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				041DD75E296275C0000B34EC /* WTCU.swift */,
+				041DD76E29627F8B000B34EC /* logo.JPG */,
 				041DD760296275C0000B34EC /* WTCU.intentdefinition */,
 				041DD761296275C2000B34EC /* Assets.xcassets */,
 				041DD763296275C2000B34EC /* Info.plist */,
