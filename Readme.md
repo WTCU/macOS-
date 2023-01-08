@@ -4,3 +4,4 @@
 #### 开源协议：GPL3.0
 #### 编辑器：Xcode14.2
 #### macOS版本：macOS13+
+#### Swift版本:Swift UI 5
