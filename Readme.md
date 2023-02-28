@@ -5,4 +5,3 @@
 #### 编辑器：Xcode14.2
 #### macOS版本：macOS13+
 #### Swift版本:Swift UI 5
-# 重要通知：此数据库将迁移到[http://341qwc20wv96.ngrok.xiaomiqiu123.top](http://341qwc20wv96.ngrok.xiaomiqiu123.top)
