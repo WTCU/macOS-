@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04856FC52A34A7B6002249DF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04856FC42A34A7B6002249DF /* WidgetKit.framework */; };
+		04856FC72A34A7B6002249DF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04856FC62A34A7B6002249DF /* SwiftUI.framework */; };
+		04856FCA2A34A7B6002249DF /* StartTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04856FC92A34A7B6002249DF /* StartTiming.swift */; };
+		04856FCD2A34A7B7002249DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04856FCC2A34A7B7002249DF /* Assets.xcassets */; };
+		04856FD02A34A7B7002249DF /* StartTiming.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 04856FCB2A34A7B6002249DF /* StartTiming.intentdefinition */; };
+		04856FD12A34A7B7002249DF /* StartTiming.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 04856FCB2A34A7B6002249DF /* StartTiming.intentdefinition */; };
+		04856FD42A34A7B7002249DF /* StartTimingExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04856FC22A34A7B6002249DF /* StartTimingExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04ABC4B22A34A54200307E6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC4B12A34A54200307E6F /* AppDelegate.swift */; };
+		04ABC4B42A34A54200307E6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC4B32A34A54200307E6F /* ViewController.swift */; };
+		04ABC4B72A34A54200307E6F /* WTCU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC4B52A34A54200307E6F /* WTCU.xcdatamodeld */; };
+		04ABC4B92A34A54400307E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC4B82A34A54400307E6F /* Assets.xcassets */; };
+		04ABC4BC2A34A54400307E6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ABC4BA2A34A54400307E6F /* Main.storyboard */; };
+		04ABC4C72A34A54400307E6F /* WTCUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC4C62A34A54400307E6F /* WTCUTests.swift */; };
+		04ABC4D12A34A54400307E6F /* WTCUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC4D02A34A54400307E6F /* WTCUUITests.swift */; };
+		04ABC4D32A34A54400307E6F /* WTCUUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC4D22A34A54400307E6F /* WTCUUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04856FD22A34A7B7002249DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ABC4A62A34A54200307E6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04856FC12A34A7B6002249DF;
+			remoteInfo = StartTimingExtension;
+		};
+		04ABC4C32A34A54400307E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ABC4A62A34A54200307E6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04ABC4AD2A34A54200307E6F;
+			remoteInfo = WTCU;
+		};
+		04ABC4CD2A34A54400307E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ABC4A62A34A54200307E6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04ABC4AD2A34A54200307E6F;
+			remoteInfo = WTCU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04856FD52A34A7B8002249DF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04856FD42A34A7B7002249DF /* StartTimingExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04856FC22A34A7B6002249DF /* StartTimingExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StartTimingExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		04856FC42A34A7B6002249DF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		04856FC62A34A7B6002249DF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		04856FC92A34A7B6002249DF /* StartTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTiming.swift; sourceTree = "<group>"; };
+		04856FCB2A34A7B6002249DF /* StartTiming.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = StartTiming.intentdefinition; sourceTree = "<group>"; };
+		04856FCC2A34A7B7002249DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04856FCE2A34A7B7002249DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04856FCF2A34A7B7002249DF /* StartTiming.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StartTiming.entitlements; sourceTree = "<group>"; };
+		04ABC4AE2A34A54200307E6F /* WTCU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTCU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ABC4B12A34A54200307E6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04ABC4B32A34A54200307E6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04ABC4B62A34A54200307E6F /* WTCU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WTCU.xcdatamodel; sourceTree = "<group>"; };
+		04ABC4B82A34A54400307E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04ABC4BB2A34A54400307E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04ABC4BD2A34A54400307E6F /* WTCU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WTCU.entitlements; sourceTree = "<group>"; };
+		04ABC4C22A34A54400307E6F /* WTCUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTCUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ABC4C62A34A54400307E6F /* WTCUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTCUTests.swift; sourceTree = "<group>"; };
+		04ABC4CC2A34A54400307E6F /* WTCUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTCUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ABC4D02A34A54400307E6F /* WTCUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTCUUITests.swift; sourceTree = "<group>"; };
+		04ABC4D22A34A54400307E6F /* WTCUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTCUUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04856FBF2A34A7B6002249DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04856FC72A34A7B6002249DF /* SwiftUI.framework in Frameworks */,
+				04856FC52A34A7B6002249DF /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABC4AB2A34A54200307E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABC4BF2A34A54400307E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABC4C92A34A54400307E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04856FC32A34A7B6002249DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04856FC42A34A7B6002249DF /* WidgetKit.framework */,
+				04856FC62A34A7B6002249DF /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04856FC82A34A7B6002249DF /* StartTiming */ = {
+			isa = PBXGroup;
+			children = (
+				04856FC92A34A7B6002249DF /* StartTiming.swift */,
+				04856FCB2A34A7B6002249DF /* StartTiming.intentdefinition */,
+				04856FCC2A34A7B7002249DF /* Assets.xcassets */,
+				04856FCE2A34A7B7002249DF /* Info.plist */,
+				04856FCF2A34A7B7002249DF /* StartTiming.entitlements */,
+			);
+			path = StartTiming;
+			sourceTree = "<group>";
+		};
+		04ABC4A52A34A54200307E6F = {
+			isa = PBXGroup;
+			children = (
+				04ABC4B02A34A54200307E6F /* WTCU */,
+				04ABC4C52A34A54400307E6F /* WTCUTests */,
+				04ABC4CF2A34A54400307E6F /* WTCUUITests */,
+				04856FC82A34A7B6002249DF /* StartTiming */,
+				04856FC32A34A7B6002249DF /* Frameworks */,
+				04ABC4AF2A34A54200307E6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04ABC4AF2A34A54200307E6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC4AE2A34A54200307E6F /* WTCU.app */,
+				04ABC4C22A34A54400307E6F /* WTCUTests.xctest */,
+				04ABC4CC2A34A54400307E6F /* WTCUUITests.xctest */,
+				04856FC22A34A7B6002249DF /* StartTimingExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04ABC4B02A34A54200307E6F /* WTCU */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC4B12A34A54200307E6F /* AppDelegate.swift */,
+				04ABC4B32A34A54200307E6F /* ViewController.swift */,
+				04ABC4B82A34A54400307E6F /* Assets.xcassets */,
+				04ABC4BA2A34A54400307E6F /* Main.storyboard */,
+				04ABC4BD2A34A54400307E6F /* WTCU.entitlements */,
+				04ABC4B52A34A54200307E6F /* WTCU.xcdatamodeld */,
+			);
+			path = WTCU;
+			sourceTree = "<group>";
+		};
+		04ABC4C52A34A54400307E6F /* WTCUTests */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC4C62A34A54400307E6F /* WTCUTests.swift */,
+			);
+			path = WTCUTests;
+			sourceTree = "<group>";
+		};
+		04ABC4CF2A34A54400307E6F /* WTCUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04ABC4D02A34A54400307E6F /* WTCUUITests.swift */,
+				04ABC4D22A34A54400307E6F /* WTCUUITestsLaunchTests.swift */,
+			);
+			path = WTCUUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04856FC12A34A7B6002249DF /* StartTimingExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04856FD82A34A7B8002249DF /* Build configuration list for PBXNativeTarget "StartTimingExtension" */;
+			buildPhases = (
+				04856FBE2A34A7B6002249DF /* Sources */,
+				04856FBF2A34A7B6002249DF /* Frameworks */,
+				04856FC02A34A7B6002249DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StartTimingExtension;
+			productName = StartTimingExtension;
+			productReference = 04856FC22A34A7B6002249DF /* StartTimingExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		04ABC4AD2A34A54200307E6F /* WTCU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ABC4D62A34A54400307E6F /* Build configuration list for PBXNativeTarget "WTCU" */;
+			buildPhases = (
+				04ABC4AA2A34A54200307E6F /* Sources */,
+				04ABC4AB2A34A54200307E6F /* Frameworks */,
+				04ABC4AC2A34A54200307E6F /* Resources */,
+				04856FD52A34A7B8002249DF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04856FD32A34A7B7002249DF /* PBXTargetDependency */,
+			);
+			name = WTCU;
+			productName = WTCU;
+			productReference = 04ABC4AE2A34A54200307E6F /* WTCU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04ABC4C12A34A54400307E6F /* WTCUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ABC4D92A34A54400307E6F /* Build configuration list for PBXNativeTarget "WTCUTests" */;
+			buildPhases = (
+				04ABC4BE2A34A54400307E6F /* Sources */,
+				04ABC4BF2A34A54400307E6F /* Frameworks */,
+				04ABC4C02A34A54400307E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ABC4C42A34A54400307E6F /* PBXTargetDependency */,
+			);
+			name = WTCUTests;
+			productName = WTCUTests;
+			productReference = 04ABC4C22A34A54400307E6F /* WTCUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04ABC4CB2A34A54400307E6F /* WTCUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ABC4DC2A34A54400307E6F /* Build configuration list for PBXNativeTarget "WTCUUITests" */;
+			buildPhases = (
+				04ABC4C82A34A54400307E6F /* Sources */,
+				04ABC4C92A34A54400307E6F /* Frameworks */,
+				04ABC4CA2A34A54400307E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ABC4CE2A34A54400307E6F /* PBXTargetDependency */,
+			);
+			name = WTCUUITests;
+			productName = WTCUUITests;
+			productReference = 04ABC4CC2A34A54400307E6F /* WTCUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04ABC4A62A34A54200307E6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					04856FC12A34A7B6002249DF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					04ABC4AD2A34A54200307E6F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					04ABC4C12A34A54400307E6F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 04ABC4AD2A34A54200307E6F;
+					};
+					04ABC4CB2A34A54400307E6F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 04ABC4AD2A34A54200307E6F;
+					};
+				};
+			};
+			buildConfigurationList = 04ABC4A92A34A54200307E6F /* Build configuration list for PBXProject "WTCU" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04ABC4A52A34A54200307E6F;
+			productRefGroup = 04ABC4AF2A34A54200307E6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04ABC4AD2A34A54200307E6F /* WTCU */,
+				04ABC4C12A34A54400307E6F /* WTCUTests */,
+				04ABC4CB2A34A54400307E6F /* WTCUUITests */,
+				04856FC12A34A7B6002249DF /* StartTimingExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04856FC02A34A7B6002249DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04856FCD2A34A7B7002249DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABC4AC2A34A54200307E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABC4B92A34A54400307E6F /* Assets.xcassets in Resources */,
+				04ABC4BC2A34A54400307E6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABC4C02A34A54400307E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABC4CA2A34A54400307E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04856FBE2A34A7B6002249DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04856FCA2A34A7B6002249DF /* StartTiming.swift in Sources */,
+				04856FD02A34A7B7002249DF /* StartTiming.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABC4AA2A34A54200307E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABC4B42A34A54200307E6F /* ViewController.swift in Sources */,
+				04ABC4B72A34A54200307E6F /* WTCU.xcdatamodeld in Sources */,
+				04ABC4B22A34A54200307E6F /* AppDelegate.swift in Sources */,
+				04856FD12A34A7B7002249DF /* StartTiming.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABC4BE2A34A54400307E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABC4C72A34A54400307E6F /* WTCUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ABC4C82A34A54400307E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABC4D12A34A54400307E6F /* WTCUUITests.swift in Sources */,
+				04ABC4D32A34A54400307E6F /* WTCUUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04856FD32A34A7B7002249DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04856FC12A34A7B6002249DF /* StartTimingExtension */;
+			targetProxy = 04856FD22A34A7B7002249DF /* PBXContainerItemProxy */;
+		};
+		04ABC4C42A34A54400307E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04ABC4AD2A34A54200307E6F /* WTCU */;
+			targetProxy = 04ABC4C32A34A54400307E6F /* PBXContainerItemProxy */;
+		};
+		04ABC4CE2A34A54400307E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04ABC4AD2A34A54200307E6F /* WTCU */;
+			targetProxy = 04ABC4CD2A34A54400307E6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04ABC4BA2A34A54400307E6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ABC4BB2A34A54400307E6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04856FD62A34A7B8002249DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StartTiming/StartTiming.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StartTiming/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StartTiming;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WTCU---.WTCU.StartTiming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04856FD72A34A7B8002249DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StartTiming/StartTiming.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StartTiming/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StartTiming;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WTCU---.WTCU.StartTiming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04ABC4D42A34A54400307E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04ABC4D52A34A54400307E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		04ABC4D72A34A54400307E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WTCU/WTCU.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WTCU---.WTCU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04ABC4D82A34A54400307E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WTCU/WTCU.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WTCU---.WTCU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04ABC4DA2A34A54400307E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WTCU---.WTCUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTCU.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WTCU";
+			};
+			name = Debug;
+		};
+		04ABC4DB2A34A54400307E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WTCU---.WTCUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTCU.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WTCU";
+			};
+			name = Release;
+		};
+		04ABC4DD2A34A54400307E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WTCU---.WTCUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WTCU;
+			};
+			name = Debug;
+		};
+		04ABC4DE2A34A54400307E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WTCU---.WTCUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WTCU;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04856FD82A34A7B8002249DF /* Build configuration list for PBXNativeTarget "StartTimingExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04856FD62A34A7B8002249DF /* Debug */,
+				04856FD72A34A7B8002249DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ABC4A92A34A54200307E6F /* Build configuration list for PBXProject "WTCU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ABC4D42A34A54400307E6F /* Debug */,
+				04ABC4D52A34A54400307E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ABC4D62A34A54400307E6F /* Build configuration list for PBXNativeTarget "WTCU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ABC4D72A34A54400307E6F /* Debug */,
+				04ABC4D82A34A54400307E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ABC4D92A34A54400307E6F /* Build configuration list for PBXNativeTarget "WTCUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ABC4DA2A34A54400307E6F /* Debug */,
+				04ABC4DB2A34A54400307E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ABC4DC2A34A54400307E6F /* Build configuration list for PBXNativeTarget "WTCUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ABC4DD2A34A54400307E6F /* Debug */,
+				04ABC4DE2A34A54400307E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04ABC4B52A34A54200307E6F /* WTCU.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04ABC4B62A34A54200307E6F /* WTCU.xcdatamodel */,
+			);
+			currentVersion = 04ABC4B62A34A54200307E6F /* WTCU.xcdatamodel */;
+			path = WTCU.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04ABC4A62A34A54200307E6F /* Project object */;
+}
