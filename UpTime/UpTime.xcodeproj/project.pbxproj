@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040D7D9C2AA4310500E59BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040D7D9D2AA4310500E59BC7 /* Main.storyboard */; };
+		040D7DA52AA431D900E59BC7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D7DA42AA431D800E59BC7 /* WidgetKit.framework */; };
+		040D7DA72AA431D900E59BC7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040D7DA62AA431D900E59BC7 /* SwiftUI.framework */; };
+		040D7DAA2AA431D900E59BC7 /* UpTime_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D7DA92AA431D900E59BC7 /* UpTime_WidgetBundle.swift */; };
+		040D7DAC2AA431D900E59BC7 /* UpTime_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D7DAB2AA431D900E59BC7 /* UpTime_Widget.swift */; };
+		040D7DAE2AA431D900E59BC7 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D7DAD2AA431D900E59BC7 /* AppIntent.swift */; };
+		040D7DB02AA431DE00E59BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040D7DAF2AA431DE00E59BC7 /* Assets.xcassets */; };
+		040D7DB52AA431DE00E59BC7 /* UpTime-WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 040D7DA22AA431D800E59BC7 /* UpTime-WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		049543712AA4263800E9F062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049543702AA4263800E9F062 /* AppDelegate.swift */; };
+		049543732AA4263800E9F062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049543722AA4263800E9F062 /* ViewController.swift */; };
+		049543752AA4263D00E9F062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049543742AA4263D00E9F062 /* Assets.xcassets */; };
+		049543832AA4263D00E9F062 /* UpTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049543822AA4263D00E9F062 /* UpTimeTests.swift */; };
+		0495438D2AA4263D00E9F062 /* UpTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495438C2AA4263D00E9F062 /* UpTimeUITests.swift */; };
+		0495438F2AA4263D00E9F062 /* UpTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495438E2AA4263D00E9F062 /* UpTimeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040D7DB32AA431DE00E59BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049543652AA4263800E9F062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040D7DA12AA431D800E59BC7;
+			remoteInfo = "UpTime-WidgetExtension";
+		};
+		0495437F2AA4263D00E9F062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049543652AA4263800E9F062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0495436C2AA4263800E9F062;
+			remoteInfo = UpTime;
+		};
+		049543892AA4263D00E9F062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049543652AA4263800E9F062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0495436C2AA4263800E9F062;
+			remoteInfo = UpTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		040D7DB92AA431DE00E59BC7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				040D7DB52AA431DE00E59BC7 /* UpTime-WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		040D7D9D2AA4310500E59BC7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		040D7DA22AA431D800E59BC7 /* UpTime-WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UpTime-WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040D7DA42AA431D800E59BC7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		040D7DA62AA431D900E59BC7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		040D7DA92AA431D900E59BC7 /* UpTime_WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpTime_WidgetBundle.swift; sourceTree = "<group>"; };
+		040D7DAB2AA431D900E59BC7 /* UpTime_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpTime_Widget.swift; sourceTree = "<group>"; };
+		040D7DAD2AA431D900E59BC7 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		040D7DAF2AA431DE00E59BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040D7DB12AA431DE00E59BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040D7DB22AA431DE00E59BC7 /* UpTime_Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UpTime_Widget.entitlements; sourceTree = "<group>"; };
+		0495436D2AA4263800E9F062 /* UpTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049543702AA4263800E9F062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		049543722AA4263800E9F062 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		049543742AA4263D00E9F062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049543792AA4263D00E9F062 /* UpTime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UpTime.entitlements; sourceTree = "<group>"; };
+		0495437E2AA4263D00E9F062 /* UpTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049543822AA4263D00E9F062 /* UpTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpTimeTests.swift; sourceTree = "<group>"; };
+		049543882AA4263D00E9F062 /* UpTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0495438C2AA4263D00E9F062 /* UpTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpTimeUITests.swift; sourceTree = "<group>"; };
+		0495438E2AA4263D00E9F062 /* UpTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040D7D9F2AA431D800E59BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040D7DA72AA431D900E59BC7 /* SwiftUI.framework in Frameworks */,
+				040D7DA52AA431D900E59BC7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0495436A2AA4263800E9F062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0495437B2AA4263D00E9F062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049543852AA4263D00E9F062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040D7DA32AA431D800E59BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040D7DA42AA431D800E59BC7 /* WidgetKit.framework */,
+				040D7DA62AA431D900E59BC7 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		040D7DA82AA431D900E59BC7 /* UpTime-Widget */ = {
+			isa = PBXGroup;
+			children = (
+				040D7DA92AA431D900E59BC7 /* UpTime_WidgetBundle.swift */,
+				040D7DAB2AA431D900E59BC7 /* UpTime_Widget.swift */,
+				040D7DAD2AA431D900E59BC7 /* AppIntent.swift */,
+				040D7DAF2AA431DE00E59BC7 /* Assets.xcassets */,
+				040D7DB12AA431DE00E59BC7 /* Info.plist */,
+				040D7DB22AA431DE00E59BC7 /* UpTime_Widget.entitlements */,
+			);
+			path = "UpTime-Widget";
+			sourceTree = "<group>";
+		};
+		049543642AA4263800E9F062 = {
+			isa = PBXGroup;
+			children = (
+				0495436F2AA4263800E9F062 /* UpTime */,
+				049543812AA4263D00E9F062 /* UpTimeTests */,
+				0495438B2AA4263D00E9F062 /* UpTimeUITests */,
+				040D7DA82AA431D900E59BC7 /* UpTime-Widget */,
+				040D7DA32AA431D800E59BC7 /* Frameworks */,
+				0495436E2AA4263800E9F062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0495436E2AA4263800E9F062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0495436D2AA4263800E9F062 /* UpTime.app */,
+				0495437E2AA4263D00E9F062 /* UpTimeTests.xctest */,
+				049543882AA4263D00E9F062 /* UpTimeUITests.xctest */,
+				040D7DA22AA431D800E59BC7 /* UpTime-WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0495436F2AA4263800E9F062 /* UpTime */ = {
+			isa = PBXGroup;
+			children = (
+				049543702AA4263800E9F062 /* AppDelegate.swift */,
+				049543722AA4263800E9F062 /* ViewController.swift */,
+				049543742AA4263D00E9F062 /* Assets.xcassets */,
+				040D7D9D2AA4310500E59BC7 /* Main.storyboard */,
+				049543792AA4263D00E9F062 /* UpTime.entitlements */,
+			);
+			path = UpTime;
+			sourceTree = "<group>";
+		};
+		049543812AA4263D00E9F062 /* UpTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				049543822AA4263D00E9F062 /* UpTimeTests.swift */,
+			);
+			path = UpTimeTests;
+			sourceTree = "<group>";
+		};
+		0495438B2AA4263D00E9F062 /* UpTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0495438C2AA4263D00E9F062 /* UpTimeUITests.swift */,
+				0495438E2AA4263D00E9F062 /* UpTimeUITestsLaunchTests.swift */,
+			);
+			path = UpTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040D7DA12AA431D800E59BC7 /* UpTime-WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040D7DB62AA431DE00E59BC7 /* Build configuration list for PBXNativeTarget "UpTime-WidgetExtension" */;
+			buildPhases = (
+				040D7D9E2AA431D800E59BC7 /* Sources */,
+				040D7D9F2AA431D800E59BC7 /* Frameworks */,
+				040D7DA02AA431D800E59BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UpTime-WidgetExtension";
+			productName = "UpTime-WidgetExtension";
+			productReference = 040D7DA22AA431D800E59BC7 /* UpTime-WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0495436C2AA4263800E9F062 /* UpTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049543922AA4263D00E9F062 /* Build configuration list for PBXNativeTarget "UpTime" */;
+			buildPhases = (
+				049543692AA4263800E9F062 /* Sources */,
+				0495436A2AA4263800E9F062 /* Frameworks */,
+				0495436B2AA4263800E9F062 /* Resources */,
+				040D7DB92AA431DE00E59BC7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040D7DB42AA431DE00E59BC7 /* PBXTargetDependency */,
+			);
+			name = UpTime;
+			productName = UpTime;
+			productReference = 0495436D2AA4263800E9F062 /* UpTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0495437D2AA4263D00E9F062 /* UpTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049543952AA4263D00E9F062 /* Build configuration list for PBXNativeTarget "UpTimeTests" */;
+			buildPhases = (
+				0495437A2AA4263D00E9F062 /* Sources */,
+				0495437B2AA4263D00E9F062 /* Frameworks */,
+				0495437C2AA4263D00E9F062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049543802AA4263D00E9F062 /* PBXTargetDependency */,
+			);
+			name = UpTimeTests;
+			productName = UpTimeTests;
+			productReference = 0495437E2AA4263D00E9F062 /* UpTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		049543872AA4263D00E9F062 /* UpTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049543982AA4263D00E9F062 /* Build configuration list for PBXNativeTarget "UpTimeUITests" */;
+			buildPhases = (
+				049543842AA4263D00E9F062 /* Sources */,
+				049543852AA4263D00E9F062 /* Frameworks */,
+				049543862AA4263D00E9F062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0495438A2AA4263D00E9F062 /* PBXTargetDependency */,
+			);
+			name = UpTimeUITests;
+			productName = UpTimeUITests;
+			productReference = 049543882AA4263D00E9F062 /* UpTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049543652AA4263800E9F062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					040D7DA12AA431D800E59BC7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					0495436C2AA4263800E9F062 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					0495437D2AA4263D00E9F062 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0495436C2AA4263800E9F062;
+					};
+					049543872AA4263D00E9F062 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0495436C2AA4263800E9F062;
+					};
+				};
+			};
+			buildConfigurationList = 049543682AA4263800E9F062 /* Build configuration list for PBXProject "UpTime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049543642AA4263800E9F062;
+			productRefGroup = 0495436E2AA4263800E9F062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0495436C2AA4263800E9F062 /* UpTime */,
+				0495437D2AA4263D00E9F062 /* UpTimeTests */,
+				049543872AA4263D00E9F062 /* UpTimeUITests */,
+				040D7DA12AA431D800E59BC7 /* UpTime-WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040D7DA02AA431D800E59BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040D7DB02AA431DE00E59BC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0495436B2AA4263800E9F062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049543752AA4263D00E9F062 /* Assets.xcassets in Resources */,
+				040D7D9C2AA4310500E59BC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0495437C2AA4263D00E9F062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049543862AA4263D00E9F062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040D7D9E2AA431D800E59BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040D7DAA2AA431D900E59BC7 /* UpTime_WidgetBundle.swift in Sources */,
+				040D7DAC2AA431D900E59BC7 /* UpTime_Widget.swift in Sources */,
+				040D7DAE2AA431D900E59BC7 /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049543692AA4263800E9F062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049543732AA4263800E9F062 /* ViewController.swift in Sources */,
+				049543712AA4263800E9F062 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0495437A2AA4263D00E9F062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049543832AA4263D00E9F062 /* UpTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049543842AA4263D00E9F062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0495438F2AA4263D00E9F062 /* UpTimeUITestsLaunchTests.swift in Sources */,
+				0495438D2AA4263D00E9F062 /* UpTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040D7DB42AA431DE00E59BC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040D7DA12AA431D800E59BC7 /* UpTime-WidgetExtension */;
+			targetProxy = 040D7DB32AA431DE00E59BC7 /* PBXContainerItemProxy */;
+		};
+		049543802AA4263D00E9F062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0495436C2AA4263800E9F062 /* UpTime */;
+			targetProxy = 0495437F2AA4263D00E9F062 /* PBXContainerItemProxy */;
+		};
+		0495438A2AA4263D00E9F062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0495436C2AA4263800E9F062 /* UpTime */;
+			targetProxy = 049543892AA4263D00E9F062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		040D7DB72AA431DE00E59BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "UpTime-Widget/UpTime_Widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UpTime-Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UpTime-Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UpTime.UpTime.UpTime-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		040D7DB82AA431DE00E59BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "UpTime-Widget/UpTime_Widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UpTime-Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UpTime-Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UpTime.UpTime.UpTime-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		049543902AA4263D00E9F062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		049543912AA4263D00E9F062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		049543932AA4263D00E9F062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UpTime/UpTime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UpTime.UpTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		049543942AA4263D00E9F062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UpTime/UpTime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UpTime.UpTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		049543962AA4263D00E9F062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UpTime.UpTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpTime";
+			};
+			name = Debug;
+		};
+		049543972AA4263D00E9F062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UpTime.UpTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpTime";
+			};
+			name = Release;
+		};
+		049543992AA4263D00E9F062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UpTime.UpTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UpTime;
+			};
+			name = Debug;
+		};
+		0495439A2AA4263D00E9F062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7436H2G4TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UpTime.UpTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UpTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040D7DB62AA431DE00E59BC7 /* Build configuration list for PBXNativeTarget "UpTime-WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040D7DB72AA431DE00E59BC7 /* Debug */,
+				040D7DB82AA431DE00E59BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049543682AA4263800E9F062 /* Build configuration list for PBXProject "UpTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049543902AA4263D00E9F062 /* Debug */,
+				049543912AA4263D00E9F062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049543922AA4263D00E9F062 /* Build configuration list for PBXNativeTarget "UpTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049543932AA4263D00E9F062 /* Debug */,
+				049543942AA4263D00E9F062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049543952AA4263D00E9F062 /* Build configuration list for PBXNativeTarget "UpTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049543962AA4263D00E9F062 /* Debug */,
+				049543972AA4263D00E9F062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049543982AA4263D00E9F062 /* Build configuration list for PBXNativeTarget "UpTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049543992AA4263D00E9F062 /* Debug */,
+				0495439A2AA4263D00E9F062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049543652AA4263800E9F062 /* Project object */;
+}
